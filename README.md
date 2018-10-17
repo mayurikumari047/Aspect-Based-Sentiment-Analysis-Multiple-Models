@@ -1,7 +1,7 @@
 # Aspect-Based-Sentiment-Analysis
 Aspect based sentiment analysis is the determination of sentiment orientation of different important aspects of any textual review or post. 
 
-This research work is done on Aspect Based Sentiment Analysis concentrating on aspect term polarity estimation for given textual dataset. The dataset consists of a number of examples/reviews and each example/review is paired with an aspect its location in the sentence for which the sentiment polarity needs to be estimated. Used multiple machine learning models including Deep Memory network for the determination of the sentiment polarity in reviews/post based on aspect and presented their pros and cons. Applied various machine learning techniques, tuned parameters on different models to achieve high accuracy. 
+This research project is done on Aspect Based Sentiment Analysis concentrating on aspect term polarity estimation for given textual dataset. The dataset consists of a number of examples/reviews and each example/review is paired with an aspect its location in the sentence for which the sentiment polarity needs to be estimated. Used multiple machine learning models including Deep Memory network for the determination of the sentiment polarity in reviews/post based on aspect and presented their pros and cons. Applied various machine learning techniques, tuned parameters on different models to achieve high accuracy. 
 
 Deep memory network approach explicitly captures the importance of each context word when inferring the sentiment polarity of an aspect. Such importance degree and text representation are calculated with multiple computational layers, each of which is a neural attention model over an external memory. Experiments on laptop and restaurant datasets demonstrates that this approach performs comparable to feature based SVM model and Random Forest ensemble method. We show that multiple computational layers can improve the performance of the system.
 
@@ -39,10 +39,9 @@ Conclusion
 Aspect based sentiment analysis, as interesting as it was, requires further research and in-depth analysis to reach a high level of desired accuracy. The dataset provided had 2553 and 3340 rows respectively. We experimented with different feature matrix building techniques and classifiers. The SVM with poly kernel gave bas results as compared to other kernels. Random forest with 500 estimators reached to the accuracy of 78%. The decision tree model was applied and the overall accuracy turned out to be 69%. When weighted voting classifier was applied to Random Forest, SVM in conjunction with Decision Tree, gave 76% accuracy. Deep neural networks behaved better and reached to an accuracy score of 63% for restaurant dataset with merely 3 epochs and 7 hops. 
 
 References
-1. scikit-learn: http://scikit-learn.org/stable
+1. http://scikit-learn.org/stable
 2. https://arxiv.org/pdf/1605.08900.pdf
 3. http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingClassifier.html
-4. http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifi
-er.html
+4. http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 5. http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 6. http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
